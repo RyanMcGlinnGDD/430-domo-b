@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 const expressHandlebars = require('express-handlebars');
 const session = require('express-session');
 
-const dbURL = process.env.MONGODB_URI || 'mongodb://heroku_nhnnrrgs:21cplcn8erfcu7u1gksebbojvn@ds155087.mlab.com:55087/heroku_nhnnrrgs';
+const dbURL = process.env.MONGODB_URI || 'mongodb://heroku_4v2sq300:5rg813jjvdui2v3n1aa48guqvv@ds019481.mlab.com:19481/heroku_4v2sq300';
 
 mongoose.connect(dbURL, (err) => {
   if (err) {
